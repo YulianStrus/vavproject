@@ -1,0 +1,39 @@
+@import '../App.scss';
+
+//-----------------CabinetPage-------------------------
+.cabinet {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+
+  text-align: center;
+  background-color: $borderColor;
+  .head {
+    font-weight: 700 ;
+    font-size: 36px;
+  }
+  .form {
+    text-align: left;
+    
+    .button{
+      width: auto;
+      height: 50px;
+      margin-left: 5px;
+      border-radius: 15px;   
+      padding-left: 10px;
+      padding-right: 10px; 
+      background-color: $mainColor;
+    }
+
+    button {
+      margin-left: 30px;
+      color: $borderColor;
+      background-color: $mainColor;
+    }
+    
+    button:hover {
+      opacity: 0.7;
+    }
+
+  }
+}

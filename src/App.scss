@@ -1,0 +1,17 @@
+$font-stack: Arial, sans-serif;
+$mainColor: #036131;
+$borderColor: #E0E0E0;
+
+:root {
+font-family: Arial, sans-serif;
+}
+
+button, .select, label, a {  
+  width: auto;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 15px;   
+  padding-left: 10px;
+  padding-right: 10px; 
+  background-color: none;
+}
